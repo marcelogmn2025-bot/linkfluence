@@ -12,7 +12,7 @@ export default function Login() {
         const { error } = await supabase.auth.signInWithOAuth({
             provider: 'linkedin_oidc',
             options: {
-                redirectTo: `${window.location.origin}/auth/callback`
+                redirectTo: `${window.location.origin}/auth/callback?next=/dashboard`
             }
         });
 
