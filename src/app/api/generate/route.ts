@@ -76,10 +76,11 @@ Baseado estritamente no TOM DE VOZ (${finalTone}), escreva o material final abai
 
         return NextResponse.json({ content: responseText });
 
-    } catch (error: any) {
+    } catch (error) {
         console.error('Error generating AI post:', error);
+        const errorMessage = error instanceof Error ? error.message : String(error);
         return NextResponse.json(
-            { error: `Erro na IA: ${error?.message || String(error)}` },
+            { error: `Erro na IA: ${errorMessage}` },
             { status: 500 }
         );
     }

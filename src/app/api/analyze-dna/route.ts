@@ -51,10 +51,11 @@ IMPORTANTE: Nunca comece com uma frase genérica como "Aqui está a análise". V
 
         return NextResponse.json({ message: 'DNA Mapeado', dna: cleanedProfile });
 
-    } catch (error: any) {
+    } catch (error) {
         console.error('Error analyzing DNA post:', error);
+        const errorMessage = error instanceof Error ? error.message : String(error);
         return NextResponse.json(
-            { error: `Erro na engenharia reversa do seu DNA: ${error?.message || String(error)}` },
+            { error: `Erro na engenharia reversa do seu DNA: ${errorMessage}` },
             { status: 500 }
         );
     }

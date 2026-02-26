@@ -48,6 +48,7 @@ export default function Dashboard() {
         setDnaResult(data.dna);
       }
     } catch (err) {
+      console.error(err);
       alert("Erro ao enviar análise.");
     } finally {
       setIsAnalyzingDna(false);
@@ -75,6 +76,7 @@ export default function Dashboard() {
         setGeneratedPost(data.content);
       }
     } catch (error) {
+      console.error(error);
       alert("Erro ao conectar com a IA.");
     } finally {
       setIsLoading(false);
@@ -166,7 +168,7 @@ export default function Dashboard() {
                 </div>
 
                 <p style={{ marginBottom: '1rem', fontSize: '0.875rem', color: 'var(--text-muted)', lineHeight: '1.5' }}>
-                  Cole abaixo um de seus melhores posts antigos. Nossa engine fará engenharia reversa para criar a sua "Receita de Estilo" e salvará no banco de dados para os seus próximos posts.
+                  Cole abaixo um de seus melhores posts antigos. Nossa engine fará engenharia reversa para criar a sua &quot;Receita de Estilo&quot; e salvará no banco de dados para os seus próximos posts.
                 </p>
 
                 <textarea
