@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { GoogleGenerativeAI, Schema, Type } from '@google/generative-ai';
+import { GoogleGenerativeAI, SchemaType } from '@google/generative-ai';
 import { createClient } from '@/utils/supabase/server';
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
@@ -67,16 +67,15 @@ Gere exatamente a quantidade solicitada (ou bem próxima). Retorne os slides no 
             generationConfig: {
                 responseMimeType: "application/json",
                 responseSchema: {
-                    type: Type.OBJECT,
+                    type: SchemaType.OBJECT,
                     properties: {
                         slides: {
-                            type: Type.ARRAY,
+                            type: SchemaType.ARRAY,
                             items: {
-                                type: Type.STRING,
+                                type: SchemaType.STRING,
                             }
                         }
-                    },
-                    required: ["slides"]
+                    }
                 }
             }
         });
@@ -98,7 +97,7 @@ Gere exatamente a quantidade solicitada (ou bem próxima). Retorne os slides no 
         console.error('Error generating AI carousel:', error);
         const errorMessage = error instanceof Error ? error.message : String(error);
         return NextResponse.json(
-            { error: \`Erro na IA: \${errorMessage}\` },
+            { error: `Erro na IA: ${errorMessage}` },
             { status: 500 }
         );
     }
