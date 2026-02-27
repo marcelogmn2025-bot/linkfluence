@@ -21,7 +21,7 @@ export default function Home() {
 
                     <Link href="/" style={{ fontSize: '1.25rem', fontWeight: 800, display: 'flex', alignItems: 'center', gap: '0.6rem', color: '#002544', letterSpacing: '-0.5px' }}>
                         {/* New Linkfluence Logo - Infinity / Link concept */}
-                        <div style={{ width: '32px', height: '32px', background: 'linear-gradient(135deg, #0A66C2, #4493df)', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 10px rgba(10, 102, 194, 0.4)' }}>
+                        <div style={{ width: '32px', height: '32px', background: 'linear-gradient(135deg, #09A8EC, #4493df)', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 10px rgba(9, 168, 236, 0.4)' }}>
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" /><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" /></svg>
                         </div>
                         Linkfluence
@@ -51,7 +51,7 @@ export default function Home() {
 
                     {/* Background Particles & Glow */}
                     <div style={{ position: 'absolute', top: '-100px', left: '-15%', right: '-15%', bottom: '-200px', pointerEvents: 'none', zIndex: 0 }}>
-                        <div className="animate-float-slow" style={{ position: 'absolute', top: '10%', left: '0%', width: '500px', height: '500px', background: 'radial-gradient(circle, rgba(10, 102, 194, 0.05) 0%, rgba(255,255,255,0) 60%)', filter: 'blur(40px)' }}></div>
+                        <div className="animate-float-slow" style={{ position: 'absolute', top: '10%', left: '0%', width: '500px', height: '500px', background: 'radial-gradient(circle, rgba(9, 168, 236, 0.05) 0%, rgba(255,255,255,0) 60%)', filter: 'blur(40px)' }}></div>
                         <div className="particle-container">
                             <div className="particle p1"></div>
                             <div className="particle p2"></div>
@@ -74,14 +74,14 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className="animate-fade-in" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: 'rgba(10, 102, 194, 0.1)', border: '1px solid rgba(10, 102, 194, 0.2)', padding: '0.35rem 1rem', borderRadius: '999px', color: '#0A66C2', fontSize: '0.85rem', fontWeight: 600, marginBottom: '2rem', position: 'relative', zIndex: 1 }}>
-                        <span style={{ display: 'inline-block', width: '6px', height: '6px', background: '#0A66C2', borderRadius: '50%' }}></span>
+                    <div className="animate-fade-in" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: 'rgba(9, 168, 236, 0.1)', border: '1px solid rgba(9, 168, 236, 0.2)', padding: '0.35rem 1rem', borderRadius: '999px', color: '#09A8EC', fontSize: '0.85rem', fontWeight: 600, marginBottom: '2rem', position: 'relative', zIndex: 1 }}>
+                        <span style={{ display: 'inline-block', width: '6px', height: '6px', background: '#09A8EC', borderRadius: '50%' }}></span>
                         O segredo do crescimento acelerado B2B
                     </div>
 
                     <h1 className="animate-fade-in delay-100" style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)', fontWeight: 800, lineHeight: 1.15, letterSpacing: '-0.02em', marginBottom: '1.5rem', color: '#0f172a', position: 'relative', zIndex: 1 }}>
                         Transforme sua experiência <br />
-                        em <span style={{ background: 'linear-gradient(135deg, #0A66C2, #4493df)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>influência no LinkedIn</span>
+                        em <span style={{ background: 'linear-gradient(135deg, #09A8EC, #4493df)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>influência no LinkedIn</span>
                     </h1>
 
                     <p className="animate-fade-in delay-200" style={{ fontSize: '1.1rem', color: '#475569', marginBottom: '3.5rem', lineHeight: '1.6', maxWidth: '650px', margin: '0 auto 3.5rem auto', textWrap: 'balance', position: 'relative', zIndex: 1 }}>
@@ -92,7 +92,7 @@ export default function Home() {
 
                         {/* Feature Approach Card 1 - Different formatting from Supergrow */}
                         <div className="card-hover" style={{ background: 'white', padding: '2rem', borderRadius: '24px', flex: '1', minWidth: '320px', maxWidth: '400px', textAlign: 'left', border: '1px solid #e2e8f0', boxShadow: '0 10px 40px -10px rgba(0,0,0,0.05)', position: 'relative', overflow: 'hidden' }}>
-                            <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '4px', background: 'linear-gradient(90deg, #0A66C2, #4493df)' }}></div>
+                            <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '4px', background: 'linear-gradient(90deg, #09A8EC, #4493df)' }}></div>
                             <h3 style={{ fontSize: '1.25rem', fontWeight: 700, marginBottom: '0.5rem', color: '#0f172a' }}>Quero crescer meu LinkedIn</h3>
                             <p style={{ fontSize: '0.9rem', color: '#64748b', marginBottom: '2rem', lineHeight: '1.6' }}>Para líderes que precisam aumentar o alcance e gerar demanda no LinkedIn, mas não têm 5 horas na semana para escrever textos.</p>
                             <Link href="/login" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: '#f8fafc', color: '#334155', padding: '0.7rem 1.2rem', borderRadius: '8px', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none', border: '1px solid #e2e8f0' }}>
@@ -104,7 +104,7 @@ export default function Home() {
                         <div className="card-hover-dark" style={{ background: '#061a33', padding: '2rem', borderRadius: '24px', flex: '1', minWidth: '320px', maxWidth: '400px', textAlign: 'left', border: '1px solid #0c2c56', boxShadow: '0 10px 40px -10px rgba(10, 102, 194, 0.15)', position: 'relative', overflow: 'hidden' }}>
                             <h3 style={{ fontSize: '1.25rem', fontWeight: 700, marginBottom: '0.5rem', color: 'white' }}>Agências de Social Media</h3>
                             <p style={{ fontSize: '0.9rem', color: '#94a3b8', marginBottom: '2rem', lineHeight: '1.6' }}>Gerencie o cronograma de publicações do LinkedIn de diversos clientes, capturando a voz de cada um com exatidão.</p>
-                            <Link href="/login" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: '#0A66C2', color: 'white', padding: '0.7rem 1.2rem', borderRadius: '8px', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none' }}>
+                            <Link href="/login" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: '#09A8EC', color: 'white', padding: '0.7rem 1.2rem', borderRadius: '8px', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none' }}>
                                 Falar com vendas <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
                             </Link>
                         </div>
@@ -126,12 +126,12 @@ export default function Home() {
 
                         {/* Editor Card */}
                         <div className="card-hover" style={{ background: '#f8fafc', borderRadius: '24px', padding: '2.5rem 2.5rem 0 2.5rem', display: 'flex', flexDirection: 'column', position: 'relative', border: '1px solid #e2e8f0' }}>
-                            <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '4px', borderRadius: '24px 24px 0 0', background: 'linear-gradient(90deg, #0A66C2, #4493df)' }}></div>
+                            <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '4px', borderRadius: '24px 24px 0 0', background: 'linear-gradient(90deg, #09A8EC, #4493df)' }}></div>
                             <div style={{ position: 'absolute', top: '1.5rem', right: '1.5rem', width: '32px', height: '32px', background: 'white', borderRadius: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', color: '#94a3b8' }}>
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M7 17L17 7M17 7H7M17 7V17" /></svg>
                             </div>
 
-                            <div style={{ fontSize: '0.75rem', fontWeight: 700, letterSpacing: '0.05em', color: '#0A66C2', textTransform: 'uppercase', marginBottom: '1rem' }}>
+                            <div style={{ fontSize: '0.75rem', fontWeight: 700, letterSpacing: '0.05em', color: '#09A8EC', textTransform: 'uppercase', marginBottom: '1rem' }}>
                                 Criação de Conteúdo
                             </div>
                             <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#0f172a', marginBottom: '300px', lineHeight: '1.3', maxWidth: '85%' }}>
@@ -139,7 +139,7 @@ export default function Home() {
                             </h3>
 
                             {/* CSS Mockup: Editor */}
-                            <div style={{ marginTop: 'auto', background: '#0A66C2', borderRadius: '16px 16px 0 0', padding: '1.5rem 1.5rem 0 1.5rem', position: 'absolute', bottom: 0, left: '2.5rem', right: '2.5rem', height: '240px', zIndex: 1 }}>
+                            <div style={{ marginTop: 'auto', background: '#09A8EC', borderRadius: '16px 16px 0 0', padding: '1.5rem 1.5rem 0 1.5rem', position: 'absolute', bottom: 0, left: '2.5rem', right: '2.5rem', height: '240px', zIndex: 1 }}>
                                 <div style={{ background: 'white', borderRadius: '12px 12px 0 0', width: '100%', height: '100%', boxShadow: '0 -10px 30px rgba(0,0,0,0.1)', padding: '1.5rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '1px solid #f1f5f9', paddingBottom: '1rem' }}>
                                         <div style={{ fontWeight: 600, fontSize: '0.9rem', color: '#0f172a' }}>Gerenciador de Posts</div>
@@ -302,7 +302,7 @@ export default function Home() {
 
                                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
                                         <div style={{ fontWeight: 600, fontSize: '0.9rem', color: '#0f172a' }}>Content Board</div>
-                                        <div style={{ background: '#0A66C2', color: 'white', fontSize: '0.65rem', padding: '0.3rem 0.6rem', borderRadius: '4px', fontWeight: 600 }}>+ Add Drafts</div>
+                                        <div style={{ background: '#09A8EC', color: 'white', fontSize: '0.65rem', padding: '0.3rem 0.6rem', borderRadius: '4px', fontWeight: 600 }}>+ Add Drafts</div>
                                     </div>
 
                                     {/* Kanban Board Mockup */}
@@ -323,8 +323,8 @@ export default function Home() {
                                         </div>
                                         {/* Column 2 */}
                                         <div style={{ flex: 1 }}>
-                                            <div style={{ fontSize: '0.65rem', color: '#0A66C2', fontWeight: 600, marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                                                <div style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#0A66C2' }}></div>
+                                            <div style={{ fontSize: '0.65rem', color: '#09A8EC', fontWeight: 600, marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                                <div style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#09A8EC' }}></div>
                                                 Em Revisão
                                             </div>
                                             <div style={{ background: 'white', border: '1px solid #3b82f6', borderRadius: '6px', padding: '0.5rem', boxShadow: '0 4px 10px rgba(59, 130, 246, 0.1)' }}>
@@ -357,8 +357,8 @@ export default function Home() {
                 <div className="animate-fade-in delay-300" style={{ width: '100%', background: '#0f172a', padding: '7rem 2rem', marginTop: '6rem', display: 'flex', flexDirection: 'column', alignItems: 'center', position: 'relative', overflow: 'hidden' }}>
 
                     {/* Background decoration */}
-                    <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '1px', background: 'linear-gradient(90deg, transparent, rgba(10, 102, 194, 0.5), transparent)' }}></div>
-                    <div style={{ position: 'absolute', bottom: '-20%', right: '-10%', width: '50%', height: '50%', background: 'radial-gradient(circle, rgba(10, 102, 194, 0.15) 0%, transparent 60%)', filter: 'blur(60px)' }}></div>
+                    <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '1px', background: 'linear-gradient(90deg, transparent, rgba(9, 168, 236, 0.5), transparent)' }}></div>
+                    <div style={{ position: 'absolute', bottom: '-20%', right: '-10%', width: '50%', height: '50%', background: 'radial-gradient(circle, rgba(9, 168, 236, 0.15) 0%, transparent 60%)', filter: 'blur(60px)' }}></div>
 
                     <h2 style={{ color: 'white', fontSize: '2.2rem', fontWeight: 700, marginBottom: '1rem', textAlign: 'center', maxWidth: '800px', lineHeight: '1.3', textWrap: 'balance', zIndex: 1 }}>
                         Por que focar no seu Content DNA?
@@ -370,7 +370,7 @@ export default function Home() {
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem', maxWidth: '1100px', width: '100%', zIndex: 1 }}>
 
                         <div style={{ background: 'rgba(255,255,255,0.03)', borderRadius: '16px', padding: '3rem 2rem', border: '1px solid rgba(255,255,255,0.05)', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', backdropFilter: 'blur(10px)' }}>
-                            <div style={{ background: 'rgba(10, 102, 194, 0.15)', width: '56px', height: '56px', borderRadius: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#4493df', marginBottom: '1.5rem' }}>
+                            <div style={{ background: 'rgba(9, 168, 236, 0.15)', width: '56px', height: '56px', borderRadius: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#4493df', marginBottom: '1.5rem' }}>
                                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>
                             </div>
                             <h3 style={{ fontSize: '1.25rem', color: 'white', marginBottom: '1rem', fontWeight: 600 }}>Autenticidade Real</h3>
@@ -378,7 +378,7 @@ export default function Home() {
                         </div>
 
                         <div style={{ background: 'rgba(255,255,255,0.03)', borderRadius: '16px', padding: '3rem 2rem', border: '1px solid rgba(255,255,255,0.05)', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', backdropFilter: 'blur(10px)' }}>
-                            <div style={{ background: 'rgba(10, 102, 194, 0.15)', width: '56px', height: '56px', borderRadius: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#4493df', marginBottom: '1.5rem' }}>
+                            <div style={{ background: 'rgba(9, 168, 236, 0.15)', width: '56px', height: '56px', borderRadius: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#4493df', marginBottom: '1.5rem' }}>
                                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                             </div>
                             <h3 style={{ fontSize: '1.25rem', color: 'white', marginBottom: '1rem', fontWeight: 600 }}>Crescimento em Escala</h3>
@@ -386,7 +386,7 @@ export default function Home() {
                         </div>
 
                         <div style={{ background: 'rgba(255,255,255,0.03)', borderRadius: '16px', padding: '3rem 2rem', border: '1px solid rgba(255,255,255,0.05)', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', backdropFilter: 'blur(10px)' }}>
-                            <div style={{ background: 'rgba(10, 102, 194, 0.15)', width: '56px', height: '56px', borderRadius: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#4493df', marginBottom: '1.5rem' }}>
+                            <div style={{ background: 'rgba(9, 168, 236, 0.15)', width: '56px', height: '56px', borderRadius: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#4493df', marginBottom: '1.5rem' }}>
                                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" /><polyline points="3.27 6.96 12 12.01 20.73 6.96" /><line x1="12" y1="22.08" x2="12" y2="12" /></svg>
                             </div>
                             <h3 style={{ fontSize: '1.25rem', color: 'white', marginBottom: '1rem', fontWeight: 600 }}>Agendamento Nativo</h3>
@@ -400,7 +400,7 @@ export default function Home() {
             {/* Simple Footer */}
             <footer style={{ background: '#020617', padding: '3rem 5%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: '#64748b', fontSize: '0.85rem', borderTop: '1px solid #1e293b' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                    <div style={{ width: '20px', height: '20px', background: 'linear-gradient(135deg, #0A66C2, #4493df)', borderRadius: '4px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <div style={{ width: '20px', height: '20px', background: 'linear-gradient(135deg, #09A8EC, #4493df)', borderRadius: '4px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" /><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" /></svg>
                     </div>
                     © 2026 Linkfluence. Todos os direitos reservados.
