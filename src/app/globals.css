@@ -9,10 +9,10 @@
   --card-bg: #ffffff;
   --border-color: #eaecf0;
 
-  --primary: #0ba5ec;
-  /* Supergrow Signature Blue */
-  --primary-hover: #026aa2;
-  --primary-glow: rgba(11, 165, 236, 0.2);
+  --primary: #09A8EC;
+  /* Custom Brand Blue */
+  --primary-hover: #078BBC;
+  --primary-glow: rgba(9, 168, 236, 0.2);
 
   --secondary: #3ec18a;
   /* Green accents */
@@ -35,10 +35,10 @@
   --card-bg: #101828;
   --border-color: #1d2939;
 
-  --primary: #36bffa;
-  /* Lighter vivid blue for dark mode */
-  --primary-hover: #7cd4fd;
-  --primary-glow: rgba(54, 191, 250, 0.25);
+  --primary: #09A8EC;
+  /* Custom Brand Blue */
+  --primary-hover: #35BFFF;
+  --primary-glow: rgba(9, 168, 236, 0.25);
 
   --secondary: #3ec18a;
   --text-muted: #98a2b3;
@@ -55,9 +55,9 @@
     --card-bg: #101828;
     --border-color: #1d2939;
 
-    --primary: #36bffa;
-    --primary-hover: #7cd4fd;
-    --primary-glow: rgba(54, 191, 250, 0.25);
+    --primary: #09A8EC;
+    --primary-hover: #35BFFF;
+    --primary-glow: rgba(9, 168, 236, 0.25);
 
     --secondary: #3ec18a;
     --text-muted: #98a2b3;
